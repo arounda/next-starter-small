@@ -1,0 +1,23 @@
+.heading {
+  font-size: 2rem;
+}
+
+.buttonsGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  padding: 2rem;
+  font-size: 1.6rem;
+  border-radius: 4px;
+  color: var(--white);
+  border: 1px solid transparent;
+  &.primary {
+    background-color: var(--primary);
+  }
+  &.secondary {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+  }
+}
